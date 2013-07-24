@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context=".ImageSelection" >
+ 
+    <Button
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/startgame"
+        android:layout_alignRight="@+id/startgame"
+        android:layout_below="@+id/startgame"
+        android:layout_marginTop="28dp"
+       android:background="@drawable/button_blue"
+        android:text="Level" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/level"
+        android:layout_alignRight="@+id/level"
+        android:layout_below="@+id/level"
+        android:layout_marginTop="24dp"
+      android:background="@drawable/button_purple"
+        android:text="Help" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/help"
+        android:layout_alignRight="@+id/help"
+        android:layout_below="@+id/help"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/button_red"
+        android:text="Exit" />
+
+    <Button
+        android:id="@+id/startgame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/button_green"
+        android:text="StartGame" />
+
+    
+
+</RelativeLayout>

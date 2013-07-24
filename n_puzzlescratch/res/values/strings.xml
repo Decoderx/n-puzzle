@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">n_puzzlescratch</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="challenge_string">Can you dare to solve this</string>
+    <string name="title_activity_start_pushed">StartPushed</string>
+    <string name="title_activity_game_play">GamePlay</string>
+    <string name="title_activity_select_level">SelectLevel</string>
+    <string name="title_activity_display_help">DisplayHelp</string>
+    <string name="helpText">helpText</string>
+
+</resources>
